@@ -1,0 +1,3 @@
+1679643331 /home/01FE20BEC004/cds.lib
+1679643074 /home/01FE20BEC004/hdl.var
+1680673870 /home/01FE20BEC004/risc_pro/riscc_tb.v

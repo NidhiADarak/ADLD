@@ -1,0 +1,45 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 05, 2023 at 11:27:11 IST
+irun
+	-access +rwc
+	riscc_tb.v
+Recompiling... reason: file './riscc.v' is newer than expected.
+	expected: Fri Mar 24 13:04:39 2023
+	actual:   Wed Apr  5 10:18:03 2023
+file: riscc_tb.v
+	module worklib.riscc_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		riscc_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.risc_pro:v <0x371ae642>
+			streams:  44, words: 24961
+		worklib.riscc_tb:v <0x197042e2>
+			streams:   5, words:  5735
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              2       2
+		Registers:           25      25
+		Scalar wires:         2       -
+		Always blocks:        5       5
+		Initial blocks:       3       3
+		Pseudo assignments:   2       2
+	Writing initial simulation snapshot: worklib.riscc_tb:v
+Loading snapshot worklib.riscc_tb:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+R0 -  0
+R1 - 10
+R2 - 20
+R3 - 25
+R4 - 30
+R5 - 55
+Simulation complete via $finish(1) at time 300 NS + 0
+./riscc_tb.v:43 #300 $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 05, 2023 at 11:27:16 IST  (total: 00:00:05)
