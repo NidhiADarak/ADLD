@@ -1,0 +1,2 @@
+s1(15Apr2023:17:36:37):  irun -access +rwc deco_3to8_tb.v 
+s2(15Apr2023:17:38:02):  irun -access +rwc deco_3to8_tb.v 

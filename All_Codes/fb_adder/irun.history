@@ -1,0 +1,13 @@
+s1(15Apr2023:16:29:41):  irun -access +rwc fourbit_adder_test.v 
+s2(15Apr2023:16:31:30):  irun -access +rwc fourbit_adder_test.v 
+s3(15Apr2023:16:32:44):  irun -access +rwc fourbit_adder_test.v 
+s4(15Apr2023:16:37:09):  irun -access +rwc fourbit_adder_test.v 
+s5(15Apr2023:16:37:28):  irun -access +rwc fourbit_adder_test.v 
+s6(15Apr2023:16:38:54):  irun -access +rwc fourbit_adder_test.v 
+s7(15Apr2023:16:45:35):  irun -access +rwc fourbit_adder_test.v 
+s8(15Apr2023:16:46:29):  irun -access +rwc fourbit_adder_test.v 
+s9(15Apr2023:16:47:56):  irun -access +rwc fourbit_adder_test.v 
+s10(15Apr2023:16:49:46):  irun -access +rwc fourbit_adder_test.v 
+s11(15Apr2023:16:50:28):  irun -access +rwc fourbit_adder_test.v 
+s12(15Apr2023:16:51:27):  irun -access +rwc fourbit_adder_test.v 
+s13(15Apr2023:16:52:05):  irun -access +rwc fourbit_adder_test.v 

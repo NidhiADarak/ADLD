@@ -1,0 +1,43 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 15, 2023 at 16:52:05 IST
+irun
+	-access +rwc
+	fourbit_adder_test.v
+Recompiling... reason: file './fourbit_adder_test.v' is newer than expected.
+	expected: Sat Apr 15 16:45:36 2023
+	actual:   Sat Apr 15 16:46:14 2023
+file: fourbit_adder_test.v
+	module worklib.fourbit_adder:v
+		errors: 0, warnings: 0
+	module worklib.fulladder:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		fourbit_adder_test
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fulladder:v <0x6c6d2e5b>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              6       3
+		Registers:            3       3
+		Scalar wires:        25       -
+		Expanded wires:       8       2
+		Initial blocks:       1       1
+		Cont. assignments:    0       6
+		Pseudo assignments:   3       3
+	Writing initial simulation snapshot: worklib.fourbit_adder_test:v
+Loading snapshot worklib.fourbit_adder_test:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+a=0000 b=0000 c=0 sum=0000 carry=0
+a=0001 b=0100 c=1 sum=0110 carry=0
+a=0010 b=1101 c=0 sum=1111 carry=0
+a=1111 b=0000 c=0 sum=1111 carry=0
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 15, 2023 at 16:52:06 IST  (total: 00:00:01)

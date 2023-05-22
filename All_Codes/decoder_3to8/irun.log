@@ -1,0 +1,44 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 15, 2023 at 17:38:02 IST
+irun
+	-access +rwc
+	deco_3to8_tb.v
+Recompiling... reason: file './deco_3to8_tb.v' is newer than expected.
+	expected: Sat Apr 15 17:28:24 2023
+	actual:   Sat Apr 15 17:32:11 2023
+file: deco_3to8_tb.v
+	module worklib.deco_3to8:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		deco_3to8_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.deco_3to8:v <0x1ebe28d4>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              2       2
+		Registers:            3       3
+		Scalar wires:        11       -
+		Initial blocks:       1       1
+		Cont. assignments:    0       8
+		Pseudo assignments:   3       3
+	Writing initial simulation snapshot: worklib.deco_3to8_tb:v
+Loading snapshot worklib.deco_3to8_tb:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+i1=0 i2=0 i3=0 o1=1 o2=0 o3=0 o4=0 o5=0 o6=0 o7=0 o8=0
+i1=0 i2=0 i3=1 o1=0 o2=1 o3=0 o4=0 o5=0 o6=0 o7=0 o8=0
+i1=0 i2=1 i3=0 o1=0 o2=0 o3=1 o4=0 o5=0 o6=0 o7=0 o8=0
+i1=0 i2=1 i3=1 o1=0 o2=0 o3=0 o4=1 o5=0 o6=0 o7=0 o8=0
+i1=1 i2=0 i3=0 o1=0 o2=0 o3=0 o4=0 o5=1 o6=0 o7=0 o8=0
+i1=1 i2=0 i3=1 o1=0 o2=0 o3=0 o4=0 o5=0 o6=1 o7=0 o8=0
+i1=1 i2=1 i3=0 o1=0 o2=0 o3=0 o4=0 o5=0 o6=0 o7=1 o8=0
+i1=1 i2=1 i3=1 o1=0 o2=0 o3=0 o4=0 o5=0 o6=0 o7=0 o8=1
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 15, 2023 at 17:38:03 IST  (total: 00:00:01)
