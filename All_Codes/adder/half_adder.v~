@@ -1,0 +1,6 @@
+module adder(sum,carry,a,b);
+input sum,cout;
+output a,b;
+assign sum = a^b;
+assign carry=a&b;
+endmodule
