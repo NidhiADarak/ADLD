@@ -1,0 +1,42 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 15, 2023 at 15:11:10 IST
+irun
+	-access +rwc
+	subt_tb.v
+Recompiling... reason: file '../full_adder/full_tb.v' is newer than expected.
+	expected: Sat Apr 15 14:50:29 2023
+	actual:   Sat Apr 15 14:55:25 2023
+file: subt_tb.v
+	module worklib.subt_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		subt_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.subt_tb:v <0x5d12bd39>
+			streams:   4, words:  5066
+		worklib.subtractor:v <0x2f5fb00a>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           2       2
+		Scalar wires:        4       -
+		Initial blocks:      1       1
+		Cont. assignments:   0       2
+		Pseudo assignments:  2       2
+	Writing initial simulation snapshot: worklib.subt_tb:v
+Loading snapshot worklib.subt_tb:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+a=0 b=0 din=0 borrow=0
+a=0 b=1 din=1 borrow=1
+a=1 b=0 din=1 borrow=0
+a=1 b=1 din=0 borrow=0
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 15, 2023 at 15:11:11 IST  (total: 00:00:01)

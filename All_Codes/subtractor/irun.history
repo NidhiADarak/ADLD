@@ -1,0 +1,2 @@
+s1(15Apr2023:15:10:54):  irun -access +rwc subt_tb.v 
+s2(15Apr2023:15:11:10):  irun -access +rwc subt_tb.v 
